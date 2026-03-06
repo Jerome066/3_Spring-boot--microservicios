@@ -20,7 +20,6 @@ public class PedidoController {
 
     @PostMapping
     public Pedido crearPedido(@RequestBody PedidoDTO request) {
-
         return pedidoService.crearPedido(
                 request.getUsuarioId(),
                 request.getProductoId(),
