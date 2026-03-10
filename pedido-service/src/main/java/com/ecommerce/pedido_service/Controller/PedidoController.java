@@ -23,7 +23,7 @@ public class PedidoController {
         return pedidoService.crearPedido(
                 request.getUsuarioId(),
                 request.getProductoId(),
-                request.getCantidad());
+                request.getCantidad());  
     }
 
 }
